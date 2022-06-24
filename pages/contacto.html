@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+       
+   <!-------------------------------Navbar    -------------------------------->
+
+   <nav class="navbar navbar-expand-lg  " style="background-color: #f7aefa;">
+    <div class="container">
+      <!-- <a href="/" class="navbar-brand">Bootstrap</a> -->
+      <a class="navbar-brand" href="#">
+        <img src="/imagenes/logo.jpeg" alt="" width="60" height="60" class="d-inline-block align-text-center">
+        <a class="navbar-brand" href="#">Amma</a>
+      </a>
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-Lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/pages/index.html">Inicio</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ---------------Formulario-------------->
+  <div class="container">
+
+   <h1>Contacto</h1>
+    <form>
+        <div class="mb-3">
+   
+        <label for="email" class="form-label">Email:</label>
+        <input 
+          id="email"
+          type="email" 
+          class="form-control"
+          placeholder="Ingresa aqui tu email"
+          aria-describedby="emailHelp"
+          required
+        >
+        <div id="emailHelp" class="form-text"> No compartiremos tu email con nadie</div>
+        </div>
+        <div class="mb-3">
+          <label for=" contraseña"class="form-label" >Contaseña</label>
+          <input
+          id="contraseña"
+          type="password"
+          class="form-control"
+          placeholder="Ingresa tu contraseña"
+          required
+          >
+         </div>
+         <div class="mb-3 pb-3">
+         <button class="btn btn-primary w-100 boton" type="submit">
+            Enviar
+         </button>
+        </div>
+      </form>
+        
+
+
+  </div>
+   
+<!-----------------------footer-------------------------------------->
+
+<div class="container>
+    <!-- Footer -->
+    <footer
+            class="text-start text-lg-start text-white"
+            style="background-color: yellow"
+            >
+      
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Contactanos
+              </h6>
+              <p>
+                Ciudad de Mexico, Mexico
+                +525510503015
+                 info@amaa.org.mx
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Sitios de intereses</h6>
+              <p>
+                <a href="#" class="link-dark">Whatsaap</a>
+              </p>
+              <p>
+                <a href="#" class="link-dark">Apadrina una mascota</a>
+              </p>
+              <p>
+                <a href="#" class="link-dark">Galeria</a>
+              </p>
+              <p>
+                <a href="#" class="link-dark">Contactanos</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+           
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Redes Sociales</h6>
+  
+              <!-- Facebook -->
+              <div style="height: 50px; ">
+                <img src="/imagenes/facebook.png" class="mh-100" alt="...">
+                <img src="/imagenes/gorjeo.png" class="mh-100" alt="...">
+               
+              </div>
+  
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >MDBootstrap.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
